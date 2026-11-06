@@ -3,6 +3,7 @@ using BibliotecaAPI.Interfaces;
 using Microsoft.Data.Sqlite;
 using System.Reflection.Metadata.Ecma335;
 
+
 namespace BibliotecaAPI.Repositories
 {
     // Criar lógica dos metodos criado na Interface
@@ -32,14 +33,45 @@ namespace BibliotecaAPI.Repositories
             comando.ExecuteNonQuery();
 
         }
-        public Livro AdicionarLivro(Livro livro)
-        {
-            throw new NotImplementedException();
-        }
+        public Livro AdicionarLivro(Livro livro){
+            // Abrir conexão com o Banco 
+            using var coon = new SqliteConnection(_conexao);
+            coon.Open();
 
-        public bool AtualizarLivro(int id, Livro livro)
+ 
+            var comando = coon.CreateCommand();
+            comando.CommandText = @"INSERT INTO livros (titulo, autor, ano_publicacao, disponivel) VALUES ($nomelivro, $nomeautor, $ano_publicacao, $disponivel)";
+            comando.Parameters.AddWithValue("$nomelivro", livro.Titulo);
+            comando.Parameters.AddWithValue("$nomeautor", livro.Autor);
+            comando.Parameters.AddWithValue("$ano_publicacao", livro.AnoPublicacao);
+            comando.Parameters.AddWithValue("$disponivel", livro.LivroAlugado);
+            comando.ExecuteNonQuery();
+
+            return livro;
+            }
+
+        public bool AtualizarLivro(int id, Livro livro) // capturar o id e atualizar apartir dele
         {
-            throw new NotImplementedException();
+            using var conexao = new SqliteConnection(_conexao);
+            conexao.Open();
+
+            var comando = conexao.CreateCommand();
+
+            comando.CommandText = @"
+                             UPDATE livros 
+                             SET titulo = $titulo, autor = $autor, ano_publicacao = $ano_publicacao, disponivel = $disponivel
+                             WHERE idLivro = $id";
+
+            comando.Parameters.AddWithValue("$titulo", livro.Titulo);
+            comando.Parameters.AddWithValue("$autor", livro.Autor);
+            comando.Parameters.AddWithValue("$ano_publicacao", livro.AnoPublicacao);
+            comando.Parameters.AddWithValue("$disponivel", livro.LivroAlugado);
+            comando.Parameters.AddWithValue("$id", id);
+
+            int linhasModificadas = comando.ExecuteNonQuery();
+
+            return linhasModificadas > 0; // teste lógico que verifica e retorna se houver modificações 
+
         }
 
         public bool DeletarLivro(int id)
@@ -55,7 +87,7 @@ namespace BibliotecaAPI.Repositories
 
             var comando = coon.CreateCommand();
             comando.CommandText = @"SELECT idLivro, titulo, autor, ano_publicacao, disponivel
-                                       FROM livro ORDER BY idLivro";
+                                       FROM livros ORDER BY idLivro";
 
             using var leitor = comando.ExecuteReader();
 

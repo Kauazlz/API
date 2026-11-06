@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\domains\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\domains\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B256B541-F57B-45C9-9098-6530C00BF974}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|c:\\users\\50463894871\\desktop\\kaua\\firstapi-biblioteca\\bibliotecaapi\\bibliotecaapi\\domains\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F04E9A0-91CB-D2BF-BA57-FBA592C5D391}|BibliotecaAPI\\BibliotecaAPI.csproj|solutionrelative:bibliotecaapi\\domains\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Domains\\Livro.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Domains\\Livro.cs",
-              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Domains\\Livro.cs*",
-              "RelativeToolTip": "BibliotecaAPI\\Domains\\Livro.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Domains\\Livro.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Domains\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T19:50:08.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BibliotecaAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BibliotecaAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-05T19:09:47.879Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LIvroController.cs",
+              "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LIvroController.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Controllers\\LIvroController.cs",
+              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Controllers\\LIvroController.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Controllers\\LIvroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T17:32:24.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repositories\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Repositories\\LivroRepository.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Repositories\\LivroRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswEQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T20:17:08.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Services\\LivroService.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Services\\LivroService.cs",
+              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Services\\LivroService.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Services\\LivroService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T20:50:53.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Interfaces\\ILivroRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaAPI\\Interfaces\\ILivroRepository.cs",
+              "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Interfaces\\ILivroRepository.cs",
+              "RelativeToolTip": "BibliotecaAPI\\Interfaces\\ILivroRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvw0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T19:58:43.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Program.cs",
               "RelativeDocumentMoniker": "BibliotecaAPI\\Program.cs",
               "ToolTip": "C:\\Users\\50463894871\\Desktop\\Kaua\\FirstAPI-Biblioteca\\BibliotecaAPI\\BibliotecaAPI\\Program.cs",
               "RelativeToolTip": "BibliotecaAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T18:52:36.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T18:52:36.371Z"
             }
           ]
         }

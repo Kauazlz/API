@@ -13,6 +13,6 @@ namespace BibliotecaAPI.Interfaces
 
         bool AtualizarLivro(int id, Livro livro); // Recebe um parâmetro do tipo int id, e recebe uma variavel do tipo Livro para cadastrar outros atributos
         bool DeletarLivro(int id); // para deletar preciso apenas do ID 
-
+        
     }
 }
